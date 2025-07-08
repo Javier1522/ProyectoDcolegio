@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Iniciar Sesión - Institución Educativa</title>
+  <link rel="stylesheet" href="iniciosesion.css" />
+</head>
+<body>
+  <main class="login-container">
+     <img src="imagenes/escudo1.png" alt="escudo 1" class="logo" />
+
+    <h2>Iniciar Sesión</h2>
+
+    <form id="loginForm">
+      <label for="usuario">Usuario</label>
+      <input type="text" id="usuario" required />
+
+      <label for="clave">Contraseña</label>
+      <input type="password" id="clave" required />
+
+      <div id="error" class="error-msg"></div>
+
+      <button type="submit" class="boton">Ingresar</button>
+    </form>
+
+    <div class="acciones">
+      <a href="#" onclick="olvidoClave()">¿Olvidaste tu contraseña?</a><br />
+      <a href="http://127.0.0.1:5500/inscripcion.html">¿No tienes cuenta? Inscríbete aquí</a>
+    </div>
+  </main>
+
+  <script src="iniciosesion.js"></script>
+</body>
+</html>

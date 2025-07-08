@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contacto - Institución Educativa</title>
+  <link rel="stylesheet" href="contactos.css">
+</head>
+<body>
+
+  <header class="encabezado">
+    <h1>Institución Educativa Roberto Velandia</h1>
+    <nav>
+      <a href="index.html">Inicio</a>
+      <a href="nosotros.html">Nosotros</a>
+      <a href="http://127.0.0.1:5500/abmisiones.html">Admisiones</a>
+      <a href="http://127.0.0.1:5500/docentes.html">Docentes</a>
+    </nav>
+  </header>
+
+  <main class="contenedor">
+    <section>
+      <h2>Contáctanos</h2>
+      <p>Si tienes alguna consulta, no dudes en escribirnos.</p>
+
+      <form id="formularioContacto">
+        <label for="nombre">Nombre completo:</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="correo">Correo electrónico:</label>
+        <input type="email" id="correo" name="correo" required>
+
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+
+        <button type="submit" class="boton">Enviar Mensaje</button>
+      </form>
+    </section>
+
+    <section class="info-contacto">
+      <h3>Información Institucional</h3>
+      <p><strong>Dirección:</strong> xxxxxxxxxxxxxxxxx</p>
+      <p><strong>Teléfono:</strong> xxxxxxxxxxxxxx</p>
+      <p><strong>Email:</strong> contacto@institucion.edu</p>
+
+      <img src="imagenes/Captura de pantalla 2025-05-30 155447.jpg" alt="Mapa ubicación" class="imagen">
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Institución Educativa Roberto Velandia</p>
+  </footer>
+
+  <script src="contactos.js"></script>
+</body>
+</html>

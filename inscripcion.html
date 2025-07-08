@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Inscripción con Clave</title>
+  <link rel="stylesheet" href="inscripcion.css" />
+</head>
+<body>
+
+  <main class="formulario-inscripcion">
+    <h2>Inscripción de Usuario o Estudiante</h2>
+
+    <form id="formInscripcion">
+      <label for="nombre">Nombre completo:</label>
+      <input type="text" id="nombre" required />
+
+      <label for="cedula/Targ.">cedula/Targeta Ident.:</label>
+      <input type="cedula/Targ." id="cedula/Targ." required />
+
+      <label for="correo">Correo electrónico:</label>
+      <input type="email" id="correo" required />
+
+      <label for="clave">Crear contraseña:</label>
+      <input type="password" id="clave" required minlength="4" />
+
+      <label for="confirmarClave">Confirmar contraseña:</label>
+      <input type="password" id="confirmarClave" required />
+
+      <button type="submit" class="boton">Inscribirse</button>
+    </form>
+
+    <div id="mensaje" class="mensaje"></div>
+  </main>
+
+  <script src="inscripcion.js"></script>
+</body>
+</html>

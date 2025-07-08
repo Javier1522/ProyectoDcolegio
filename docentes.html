@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Registro de Docentes</title>
+  <link rel="stylesheet" href="docentes.css" />
+</head>
+<body>
+
+  <div class="contenedor">
+    <h2>Registro de Docentes por Asignatura</h2>
+
+    <form id="formDocente">
+      <input type="text" id="nombre" placeholder="Nombre del docente" required />
+      <input type="text" id="asignatura" placeholder="Asignatura" required />
+      <input type="text" id="titulo" placeholder="Título o credencial" required />
+      <button type="submit">Registrar Docente</button>
+    </form>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Nombre</th>
+          <th>Asignatura</th>
+          <th>Credencial</th>
+        </tr>
+      </thead>
+      <tbody id="tablaDocentes">
+        <!-- Filas generadas dinámicamente -->
+      </tbody>
+    </table>
+  </div>
+
+  <script src="docentes.js"></script>
+</body>
+</html>

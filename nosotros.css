@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.encabezado {
+  background-color: #004080;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+nav a {
+  margin: 0 10px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.contenedor {
+  max-width: 900px;
+  margin: auto;
+  padding: 40px 20px;
+}
+
+h2 {
+  color: #004080;
+  margin-top: 30px;
+}
+
+.valores {
+  background-color: #eef5ff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+ul {
+  list-style: disc inside;
+  line-height: 1.6;
+}
+
+.imagen-equipo {
+  width: 100%;
+  max-width: 600px;
+  margin-top: 20px;
+  border-radius: 12px;
+}
+
+footer {
+  background-color: #2b6eb1;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+}
